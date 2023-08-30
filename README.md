@@ -1,5 +1,5 @@
 # Dicom Viewer
-First install vite with the command 'npm install vite' in terminal
+First install vite with the command 'npm install vite' in terminal </br>
 then run the program with the command 'npm run dev' in terminal
 
 ## Recommended IDE Setup
