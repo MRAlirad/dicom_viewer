@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite": "^4.4.5",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5"
+    "tailwindcss": "^3.3.3"
   }
 }
