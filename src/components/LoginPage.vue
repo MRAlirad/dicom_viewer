@@ -4,7 +4,7 @@
             <img src="../assets/pics/Logo.png" alt="" class="logoPic w-[90%] h-[90%] object-contain">
         </div>
         <div class="loginForm bg-[#e9f0ff] flex items-center flex-col justify-center relative">
-            <svg class="absolute top-0 right-[100%] h-full" width="128" height="989" viewBox="0 0 128 989" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="absolute top-0 right-[94%] h-full" width="100" height="989" viewBox="0 0 128 989" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M101.977 -23.8626L127.642 69.9998L127.642 178.02L127.677 397.663L112.193 821.787L102.163 989.079C-10.8339 923.691 16.8271 713.874 54.5702 566.915C82.7509 409.957 -4.69562 232.39 0.96452 150.18C1.39372 44.2662 74.0739 12.5942 103.041 -6.41835L101.977 -23.8626Z" fill="#E9F0FF"/>
             </svg>
             <div class="loginWays flex gap-[100px] relative">
