@@ -4,13 +4,14 @@
 </template>
 
 <script>
-import LoginPage from './components.LoginPage.vue'
-export default {
-  name : app,
-  components : {LoginPage}
-}
+    import LoginPage from './components/LoginPage.vue';
+
+    export default {
+        components : {LoginPage}
+    }
 </script>
 
 <style scoped>
 
 </style>
+
