@@ -554,20 +554,12 @@ video {
   left: -2px;
 }
 
-.right-\[100\%\] {
-  right: 100%;
+.right-\[94\%\] {
+  right: 94%;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.right-\[100\] {
-  right: 100;
-}
-
-.right-\[94\%\] {
-  right: 94%;
 }
 
 .m-auto {
@@ -637,18 +629,6 @@ video {
 
 .grid-cols-\[3fr_2fr\] {
   grid-template-columns: 3fr 2fr;
-}
-
-.grid-cols-\[3fr_max2fr\] {
-  grid-template-columns: 3fr max2fr;
-}
-
-.grid-cols-\[3fr_max-content2fr\] {
-  grid-template-columns: 3fr max-content2fr;
-}
-
-.grid-cols-\[3fr_max-content_2fr\] {
-  grid-template-columns: 3fr max-content 2fr;
 }
 
 .flex-col {

@@ -12,7 +12,8 @@
                 <button class="text-[#4e51fe] text-[15px] tracking-wide font-bold hover:text-blue-700">By SMS</button>
                 <div id="active" class="active before:content-[' '] w-[101px] h-[2px] bg-[#91B3FA] absolute left-[-2px] bottom-[-4px]"></div>
             </div>
-            <div class="form p-[45px] w-[87%]">
+            <LoginForm />
+            <!-- <div class="form p-[45px] w-[87%]">
                 <form class="formE1 w-[98%] flex flex-col gap-8">
                     <input type="text" placeholder="Enter Your Username" class="text-[#1e1b4b] w-full border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[15px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none" >
                     <input type="password" placeholder="Enter Your password" class="w-full text-[#1e1b4b] border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[15px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none invalid:text-pink-600" >
@@ -22,13 +23,14 @@
                     </div>
                     <button class="login mt-[40px] bg-[#7D97F4] text-[#fff] border-2 border-solid border-[#7D97F4] rounded-md font-bold text-[15px] w-max pt-[10px] pb-[10px] pr-[30px] pl-[30px] m-auto hover:bg-blue-500 hover:border-blue-500">LOGIN</button>
                 </form>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
 
 <script>
+import LoginForm from '../components/LoginForm.vue'
 export default {
-    
+    components : {LoginForm}
 }
 </script>
