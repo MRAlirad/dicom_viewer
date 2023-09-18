@@ -4,7 +4,12 @@
 
 <script>
 export default {
-
+    props:{
+        text : ''
+        
+        
+    }
+    
 }
 </script>
 
