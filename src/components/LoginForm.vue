@@ -13,13 +13,13 @@
                     type="text"
                     placeholder="Enter Your Username"
                     v-model="username.value" 
-                    @click="userActive" 
+                    
                     class="text-[#1e1b4b] w-full border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[20px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none" >
             <input 
                 type="password" 
                 placeholder="Enter Your password" 
                 v-model="password.value"
-                @click="passActive" 
+                
                 class="w-full text-[#1e1b4b] border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[12px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none invalid:text-pink-600" >
             </div>
             <div class="forget-remember flex justify-between gap-[10px] mt-[-43px]">
