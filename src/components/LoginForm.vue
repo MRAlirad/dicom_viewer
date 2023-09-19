@@ -6,7 +6,7 @@
                 <button class="text-[#4e51fe] text-[15px] tracking-wide font-bold hover:text-blue-700">By SMS</button>
                 <div id="active" class="active before:content-[' '] w-[101px] h-[2px] bg-[#91B3FA] absolute left-[-2px] bottom-[-4px]"></div>
             </div>
-    <div class="form p-[45px] w-[60%]">
+    <div class="form p-[45px] w-[70%]">
         <form class="formE1 w-[98%] flex flex-col gap-[50px]">
             <div class="inputs flex flex-col gap-10" v-if="activeInput === 'username'" >
                 <input 

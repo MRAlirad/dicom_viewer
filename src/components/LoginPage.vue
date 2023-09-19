@@ -1,7 +1,7 @@
 <template>
     <div class="loginPage h-screen grid grid-cols-[3fr_2fr]">
         <div class="logo h-screen bg-gradient-to-r from-[#4E51FE] to-[#7D97F4] relative flex justify-center items-center">
-            <img src="../assets/pics/Logo.png" alt="" class="logoPic w-[90%] h-[90%] object-contain">
+            <img src="../assets/pics/Logo.png" alt="" class="logoPic w-[100%] h-[100%] object-contain">
         </div>
         <div class="loginForm bg-[#e9f0ff] flex items-center flex-col justify-center relative">
             <svg class="absolute top-0 right-[94%] h-full" width="100" height="989" viewBox="0 0 128 989" fill="none" xmlns="http://www.w3.org/2000/svg">
