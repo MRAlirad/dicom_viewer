@@ -8,7 +8,7 @@
             </div>
     <div class="form p-[45px] w-[87%]">
         <form class="formE1 w-[98%] flex flex-col gap-[50px]">
-            <div class="inputs gap-8" v-if="activeInput === 'username'" >
+            <div class="inputs flex flex-col gap-10" v-if="activeInput === 'username'" >
                 <input 
                     type="text"
                     placeholder="Enter Your Username"
