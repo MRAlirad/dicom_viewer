@@ -28,7 +28,14 @@
 export default {
     data(){
         return{
-            activeInput : 'username'
+            activeInput : 'username',
+            username : {
+                value : ''
+            }
+            ,
+            password : {
+                value : ''
+            }
         }
     },
 
