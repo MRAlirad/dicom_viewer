@@ -2,12 +2,9 @@
 	<div class="loginWays flex gap-[100px] relative">
 		<button
 			id="button"
-			class="button text-[#4e51fe] text-[15px] tracking-wide font-bold hover:text-blue-700"
-		>
-			By Username
-		</button>
+			class="button text-[#4e51fe] text-[15px] tracking-wide font-bold hover:text-blue-700">By Username</button>
 		<button class="text-[#4e51fe] text-[15px] tracking-wide font-bold hover:text-blue-700">By SMS</button>
-		<div
+	<div
 			id="active"
 			class="active before:content-[' '] w-[101px] h-[2px] bg-[#91B3FA] absolute left-[-2px] bottom-[-4px]"
 		></div>
