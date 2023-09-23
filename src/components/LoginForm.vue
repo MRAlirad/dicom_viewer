@@ -23,12 +23,19 @@
 					type        = "text"
 					placeholder = "Enter Your Username"
 					v-model     = "username.value"
+					:class      = "{invalid : username.invalid}"
 					class       = "text-[#1e1b4b] w-full border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[20px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none"
 				/>
+				<p 
+					v-if="username.invalid === true"
+					class="text-[E74A3B] text-[15px]">
+					Username cannot be empty
+				</p>
 				<input
 					type        = "password"
 					placeholder = "Enter Your password"
 					v-model     = "password.value"
+					:class      = "{invalid : password.invalid}"
 					class       = "w-full text-[#1e1b4b] border-b-2 border-b-[#91B3FA] placeholder-[#A18F8F] placeholder-opacity-100 placeholder-[12px] placeholder-font-medium bg-[#e9f0ff] focus:outline-none invalid:text-pink-600"
 				/>
 			</div>
@@ -50,8 +57,10 @@
 				</a>
 			</div>
 			<button
-				class = "login mt-[30px] bg-[#7D97F4] text-[#fff] border-2 border-solid border-[#7D97F4] rounded-md font-bold text-[15px] w-max pt-[10px] pb-[10px] pr-[30px] pl-[30px] m-auto hover:bg-blue-500 hover:border-blue-500">
+				@click ="submit"
+				class  = "login mt-[30px] bg-[#7D97F4] text-[#fff] border-2 border-solid border-[#7D97F4] rounded-md font-bold text-[15px] w-max pt-[10px] pb-[10px] pr-[30px] pl-[30px] m-auto hover:bg-blue-500 hover:border-blue-500">
 				LOGIN
+				
 			</button>
 		</form>
 	</div>
@@ -62,12 +71,14 @@
 		data() {
 			return {
 				activeInput: 'username',
-				username: {
-					value: '',
-				},
-				password: {
-					value: '',
-				},
+					username: {
+						value   : '',
+						invalid : false
+					},
+					password: {
+						value   : '',
+						invalid : false
+					},
 			};
 		},
 		method: {
@@ -77,6 +88,10 @@
 			passActive() {
 				this.activeInput = 'password';
 			},
+			submit(){
+				if(this.username.value === '') this.username.invalid = true
+				if(this.password.value === '') this.password.invalid = true
+			}
 		},
 	};
 </script>

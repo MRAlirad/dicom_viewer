@@ -1,6 +1,6 @@
 <template>
     <div class="loginPage h-screen grid grid-cols-[3fr_2fr]">
-        <div class="logo h-screen bg-gradient-to-r from-[#4E51FE] to-[#7D97F4] relative flex justify-center items-center">
+        <div class="logo h-screen bg-gradient-to-r from-[#1C39BB] to-[#7D97F4] relative flex justify-center items-center">
             <img src="../assets/pics/Logo.png" alt="" class="logoPic w-[100%] h-[100%] object-contain">
         </div>
         <div class="loginForm bg-[#e9f0ff] flex items-center flex-col justify-center relative">
